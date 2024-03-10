@@ -40,3 +40,29 @@ header.classList.toggle('sticky', window.scrollY > 100);
 
     navbar.classList.remove('active');
 };
+
+//read more button functionality
+function readMore(){
+    let displayText = document.getElementById("hidden-txt");
+    let dot = document.getElementById("dot");
+    let btn = document.getElementById("read-more");
+
+    if(displayText.style.display === "none"){
+        displayText.style.display = "block";
+        dot.style.display = "none";
+        btn.textContent = "View Less";
+    }else{
+        displayText.style.display = "none";
+        dot.style.display = "block";
+        btn.textContent = "Read More";
+    }
+}
+
+
+
+
+
+
+
+
+
