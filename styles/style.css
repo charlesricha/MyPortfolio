@@ -162,6 +162,9 @@ line-height: 1.2;
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+#hidden-txt{
+    display:none;
+}
 .services h2{
 margin-bottom: 5rem;
 }
